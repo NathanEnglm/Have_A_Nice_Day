@@ -1,0 +1,299 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deeper_and_darker"
+	group: "0F5C1E3F17DB34B6"
+	id: "76DE9F0197852C3E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4C4CC69F49687DEF"]
+			hide: true
+			icon: "minecraft:warden_spawn_egg"
+			id: "49FB137EE585930A"
+			rewards: [{
+				id: "4E270780FE2E71BB"
+				item: "deeperdarker:warden_carapace"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "minecraft:warden_spawn_egg"
+				id: "017E18E4E7805082"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "4C4CC69F49687DEF"
+			tasks: [{
+				id: "7160E6D37C94662D"
+				structure: "minecraft:ancient_city"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49FB137EE585930A"]
+			hide: true
+			icon: "deeperdarker:heart_of_the_deep"
+			id: "5A5B77F95D4B67CB"
+			rewards: [{
+				id: "2091046AEB5C4E9B"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "deeperdarker:wanderers_notebook"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "66FAEBC4ECC49625"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["768DAD846511779D"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6DEC4702C45BB99F"
+			shape: "diamond"
+			tasks: [{
+				id: "454C164121C8A195"
+				item: {
+					Count: 1b
+					id: "deeperdarker:warden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["111B93C13C13795E"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "31878E6F1F8EBFFF"
+			shape: "diamond"
+			tasks: [{
+				id: "158FC8FCBEDCDDA5"
+				item: {
+					Count: 1b
+					id: "deeperdarker:warden_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["111B93C13C13795E"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3876734910DC5778"
+			shape: "diamond"
+			tasks: [{
+				id: "10BAB1F66EAAB43F"
+				item: {
+					Count: 1b
+					id: "deeperdarker:warden_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["111B93C13C13795E"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1CC67C4F2C12B036"
+			shape: "diamond"
+			tasks: [{
+				id: "1112D00422654037"
+				item: {
+					Count: 1b
+					id: "deeperdarker:warden_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["768DAD846511779D"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6489AA56C2F99F18"
+			shape: "diamond"
+			tasks: [{
+				id: "0CE4E6644BA6DC35"
+				item: {
+					Count: 1b
+					id: "deeperdarker:warden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["111B93C13C13795E"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5EF158ADBB0F7DA7"
+			shape: "diamond"
+			tasks: [{
+				id: "582D0743E93ED297"
+				item: {
+					Count: 1b
+					id: "deeperdarker:warden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["111B93C13C13795E"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "293A28B8FFAE1FC3"
+			shape: "diamond"
+			tasks: [{
+				id: "2E50C533BC540A79"
+				item: {
+					Count: 1b
+					id: "deeperdarker:warden_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["111B93C13C13795E"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2239AEFECC9E9C0B"
+			shape: "diamond"
+			tasks: [{
+				id: "13231BB12A1AFC09"
+				item: {
+					Count: 1b
+					id: "deeperdarker:warden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["111B93C13C13795E"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "543738E5EF0CFA1A"
+			shape: "diamond"
+			tasks: [{
+				id: "491D446DAE8D8939"
+				item: {
+					Count: 1b
+					id: "deeperdarker:warden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["111B93C13C13795E"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1A3ED3B7EE1EA26F"
+			shape: "diamond"
+			tasks: [{
+				id: "1D98B1009C77DB6C"
+				item: {
+					Count: 1b
+					id: "delightful:warden_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49FB137EE585930A"]
+			hide_dependency_lines: false
+			id: "111B93C13C13795E"
+			shape: "hexagon"
+			tasks: [{
+				id: "768DAD846511779D"
+				item: "deeperdarker:reinforced_echo_shard"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "090D580ADA609E4F"
+			tasks: [{
+				id: "2B45FA254087B430"
+				title: "A VENIR"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	title: "De l'autre côté"
+}

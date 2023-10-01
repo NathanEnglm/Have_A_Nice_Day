@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "tough_as_nail"
+	group: "121C97DF82B5270B"
+	icon: {
+		Count: 1b
+		id: "toughasnails:wool_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "05518523CDB3E339"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "626C6D86B10580E3"
+		rewards: [{
+			count: 4
+			id: "065F11CB69383DF5"
+			item: "minecraft:leather"
+			type: "item"
+		}]
+		tasks: [{
+			id: "1A14683F6E1464A3"
+			item: "toughasnails:empty_canteen"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "De bons conseils pour survivre"
+}

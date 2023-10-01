@@ -1,0 +1,157 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "utilitaires"
+	group: "121C97DF82B5270B"
+	icon: {
+		Count: 1b
+		id: "naturescompass:naturescompass"
+		tag: { }
+	}
+	id: "71D6C49A3F13512E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "56C7FE7F2916802E"
+			tasks: [{
+				id: "50397774833F6677"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7FBC2377160DB476"
+			tasks: [{
+				id: "6DCB0C54F79F2BB5"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "4B2DDDB19108F06F"
+			tasks: [{
+				id: "53C115785967206D"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "173E485F38EB0A58"
+			tasks: [{
+				id: "37CDE677A7F05FEF"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "084AF3DA5C953DB8"
+			tasks: [{
+				id: "3B9FDE76D0BB857A"
+				item: "framedblocks:framed_cube"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "5863497E12343EF9"
+			tasks: [{
+				id: "3C28385C299F4273"
+				item: "croptopia:guide"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "76552F58237E8A1D"
+			tasks: [{
+				id: "40805F7551FC1768"
+				item: "backpacked:backpack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "79B0C294D7093E5F"
+			tasks: [{
+				id: "19D383C72CA4E118"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "5D3377099E60B040"
+			tasks: [{
+				id: "17D7DDA913D2820A"
+				item: "simpleshops:simple_shop"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "6564888351E80EAB"
+			tasks: [{
+				id: "66A5B5A15C8AB36B"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "481D6D577954EB9A"
+			tasks: [{
+				id: "5F391334352DC495"
+				item: "createchunkloading:chunk_loader"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "34DE112A02636246"
+			tasks: [{
+				id: "10EB015026BC1D32"
+				item: {
+					Count: 1b
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "705F66A42144E9C9"
+			tasks: [{
+				id: "3BE9977D5525DCBB"
+				item: "elevatorid:elevator_white"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+	title: "Utilitaires"
+}

@@ -1,0 +1,372 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lend"
+	group: "0F5C1E3F17DB34B6"
+	id: "154F552054EE4FC6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:ender_eye"
+			id: "6DCEFD7B31AB7E15"
+			shape: "octagon"
+			tasks: [{
+				id: "109BF7ECF7DF703D"
+				title: "La Qûete des 12"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DCEFD7B31AB7E15"]
+			id: "06F1FB0736B2A211"
+			shape: "diamond"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_crystal"
+				id: "6ECD6FADDB153415"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6DCEFD7B31AB7E15"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4D58B14FD00EAC6D"
+			tasks: [{
+				id: "4A863D11DF54C1CD"
+				item: {
+					Count: 1b
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6DCEFD7B31AB7E15"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0243E653FBC1AF2F"
+			tasks: [{
+				id: "443D715EB9502B1B"
+				item: {
+					Count: 1b
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DCEFD7B31AB7E15"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "517516403926E3FC"
+			tasks: [{
+				id: "1D94F7D171EB9D27"
+				item: {
+					Count: 1b
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6DCEFD7B31AB7E15"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4D07A27543B72A21"
+			tasks: [{
+				id: "756D1267D885EDDD"
+				item: {
+					Count: 1b
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6DCEFD7B31AB7E15"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5F93D88F4E3CBA9D"
+			tasks: [{
+				id: "1ACB5F5142675995"
+				item: {
+					Count: 1b
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6DCEFD7B31AB7E15"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "106CF06F86C7F6AB"
+			tasks: [{
+				id: "32C490BDD9FF331E"
+				item: {
+					Count: 1b
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DCEFD7B31AB7E15"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1EC42CC23445C1C2"
+			tasks: [{
+				id: "4AEF105175B0EB36"
+				item: {
+					Count: 1b
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6DCEFD7B31AB7E15"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3CBB3ABD78BDE1EF"
+			tasks: [{
+				id: "38A4B259BBB4F6A0"
+				item: {
+					Count: 1b
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6DCEFD7B31AB7E15"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "15BCB5EB70DC3505"
+			tasks: [{
+				id: "17AC6BABF678D260"
+				item: {
+					Count: 1b
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6DCEFD7B31AB7E15"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "58DDA6F5A53D7E87"
+			tasks: [{
+				id: "1E546EE4C771D12A"
+				item: {
+					Count: 1b
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6DCEFD7B31AB7E15"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "091C58832BE3773D"
+			tasks: [{
+				id: "550649DDB63F21A5"
+				item: {
+					Count: 1b
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6DCEFD7B31AB7E15"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5EA2887482F12B58"
+			tasks: [{
+				id: "7AE92F6CED18AC14"
+				item: {
+					Count: 1b
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6DCEFD7B31AB7E15"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "012DD2FBC5836E25"
+			tasks: [{
+				id: "3B6B19BB631C989C"
+				item: {
+					Count: 1b
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6DCEFD7B31AB7E15"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "403E020EC2757B61"
+			tasks: [{
+				id: "431A0CCCFDA7DACE"
+				item: {
+					Count: 1b
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6DCEFD7B31AB7E15"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6543E60664B6986C"
+			tasks: [{
+				id: "3496B8357F9CF12B"
+				item: {
+					Count: 1b
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6DCEFD7B31AB7E15"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5506FD5D121EC1A8"
+			tasks: [{
+				id: "05303B8C77CC7797"
+				item: {
+					Count: 1b
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["06F1FB0736B2A211"]
+			id: "4A74A3C754DD03CC"
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "43C6F25946B2F04D"
+				title: "Aller plus loin"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+	title: "L'end"
+}

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aquaculture"
+	group: "0ABE0A828E14DA88"
+	id: "22278441C7904C7F"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Aquaculture"
+}

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_drawers"
+	group: "0ABE0A828E14DA88"
+	id: "5C7AB6B2412CAFF2"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Storage Drawers"
+}

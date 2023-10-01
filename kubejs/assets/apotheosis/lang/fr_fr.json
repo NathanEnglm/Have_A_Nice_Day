@@ -1,0 +1,6 @@
+{
+    "comment_id": "Guidebook",
+    "book.apotheosis.name": "Chronique des ombres",
+    "book.apotheosis.subtitle": "Guide d'Apotheosis",
+    "book.apotheosis.landing": "Bienvenue dans le monde d’Apotheosis.$(br2)Apotheosis est organisé en $(#8080FF)Modules$(), tout comme le contenu de ce livre. $(br2)Les modules désactivés sont masqués."
+}

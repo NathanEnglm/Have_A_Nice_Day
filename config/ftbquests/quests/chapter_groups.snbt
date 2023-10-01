@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "121C97DF82B5270B", title: "Bien débuter" }
+		{ id: "0ABE0A828E14DA88", title: "Mods" }
+		{ id: "0F5C1E3F17DB34B6", title: "Dimensions" }
+		{ id: "5DD69951EF218F01", title: "Autres" }
+	]
+}

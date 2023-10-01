@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "capitalisme"
+	group: "5DD69951EF218F01"
+	id: "750C70E2971B188E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Capitalisme"
+}

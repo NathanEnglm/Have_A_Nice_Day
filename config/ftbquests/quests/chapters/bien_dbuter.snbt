@@ -1,0 +1,98 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "bien_dbuter"
+	group: "121C97DF82B5270B"
+	icon: "minecraft:nether_star"
+	id: "0FD05905C2114853"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "177C1502FFAECAAD"
+			rewards: [{
+				id: "6BB09702B18B132B"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "386F724768A89727"
+				title: "Test"
+				type: "checkmark"
+			}]
+			title: "Have A Nice Day !"
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "toughasnails:water_canteen"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "007CB3FDA3E5A894"
+			tasks: [{
+				id: "6F84907C3BE969E0"
+				title: "Gestion de la soif"
+				type: "checkmark"
+			}]
+			title: "Soif"
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			icon: "sereneseasons:calendar"
+			id: "5B9DCE93C03C2883"
+			tasks: [{
+				id: "2B47B84B78AE3EA5"
+				title: "Les saisons"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			icon: "waystones:waystone"
+			id: "7CF15EBFCD5A3C96"
+			tasks: [{
+				id: "51EF2ED8AAED7F77"
+				title: "Waystone"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			icon: "coinsje:gold_coin_pile"
+			id: "1DD7B7C4A27E12BE"
+			tasks: [{
+				id: "5F3CAF33D85036F2"
+				title: "Commerce"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "toughasnails:wool_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "01F4C7673AC51D6C"
+			tasks: [{
+				id: "527710DC7266B11A"
+				title: "Températures"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+	]
+	title: "Information sur le Modpack"
+}
